@@ -18,6 +18,7 @@ public class SecondActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_second);
+		//
 		lv = (ListView)findViewById(R.id.lv);
 		DBHelper db = new DBHelper(SecondActivity.this);
 		note = db.getAllNotes();
